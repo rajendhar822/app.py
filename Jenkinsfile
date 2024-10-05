@@ -32,8 +32,7 @@ pipeline {
 
     post {
         always {
-            echo 'Cleaning up...'
-            sh "docker rmi ${DOCKER_IMAGE_NAME}:${DOCKER_TAG} || true"
+            echo 'build and run completed'
         }
     }
 }
