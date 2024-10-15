@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = 'pyt'
+        DOCKER_IMAGE_NAME = 'pipeline-project'
         DOCKER_TAG = 'latest'
     }
 
